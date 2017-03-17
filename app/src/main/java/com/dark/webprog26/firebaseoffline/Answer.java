@@ -9,17 +9,16 @@ public class Answer {
     public long id;
     public String mAnswerText;
     public boolean isCorrect;
-    public int mPoints;
     public long nextQuestionId;
-    public double mPointsDouble;
+    public double mPoints;
 
     public Answer() {
     }
 
-    public Answer(long id, String mAnswerText, double mPoints, long nextQuestionId) {
+    public Answer(long id, String mAnswerText, double points, long nextQuestionId) {
         this.id = id;
         this.mAnswerText = mAnswerText;
-        this.mPointsDouble = mPoints;
+        this.mPoints = points;
         this.nextQuestionId = nextQuestionId;
     }
 
@@ -29,14 +28,6 @@ public class Answer {
 
     public boolean isCorrect() {
         return isCorrect;
-    }
-
-    public int getPoints() {
-        return mPoints;
-    }
-
-    public void setPoints(int mPoints) {
-        this.mPoints = mPoints;
     }
 
     public long getId() {
@@ -51,12 +42,12 @@ public class Answer {
         return nextQuestionId;
     }
 
-    public double getmPointsDouble() {
-        return mPointsDouble;
+    public double getPoints() {
+        return mPoints;
     }
 
-    public void setmPointsDouble(double mPointsDouble) {
-        this.mPointsDouble = mPointsDouble;
+    public void setPoints(double points) {
+        this.mPoints = points;
     }
 
     public void setNextQuestionId(long nextQuestionId) {
