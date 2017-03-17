@@ -1,0 +1,120 @@
+{
+  "questions":[
+    {
+      "id":0,
+      "text": "Кто из Ваших родственников имеет или имел польское происхождение?",
+        "answers":[
+          {
+            "id":1,
+            "text":"Бабушка/Дедушка",
+            "points":1,
+            "nextQuestionId":2
+          },
+          {
+            "id":2,
+            "text":"Прабабушка/Прадедушка",
+            "points":1,
+            "nextQuestionId":2
+          },
+          {
+            "id":3,
+            "text":"Отец/Мать",
+            "points":1,
+            "nextQuestionId":3
+          }
+        ],
+        "type":0,
+        "questionImageName":null
+    },
+    {
+      "id":1,
+      "text": "По чьей линии?",
+        "answers":[
+          {
+            "id":1,
+            "text":"По маме",
+            "points":1,
+            "nextQuestionId":3
+          },
+          {
+            "id":2,
+            "text":"По папе",
+            "points":1,
+            "nextQuestionId":3
+          },
+          {
+            "id":3,
+            "text":"По бабушке мамы/папы",
+            "points":1,
+            "nextQuestionId":3
+          },
+          {
+            "id":4,
+            "text":"По дедушке мамы/папы",
+            "points":1,
+            "nextQuestionId":3
+          }
+        ],
+        "type":1,
+        "questionImageName":null  
+    },
+    {
+      "id":2,
+      "text": "Как часто Вы навещаете его/ее/их?",
+        "answers":[
+          {
+            "id":1,
+            "text":"По праздникам/на каникулах",
+            "points":0.5,
+            "nextQuestionId":4
+          },
+          {
+            "id":2,
+            "text":"Несколько раз в месяц",
+            "points":0.7,
+            "nextQuestionId":4
+          },
+          {
+            "id":3,
+            "text":"Мы жили вместе",
+            "points":1,
+            "nextQuestionId":4
+          },
+          {
+            "id":4,
+            "text":"Я его/ее не застал в живых",
+            "points":0.3,
+            "nextQuestionId":4
+          }
+        ],
+        "type":1,
+        "questionImageName":null  
+    },
+    {
+      "id":3,
+      "text": "Зачем Вам карта Побыту?",
+        "answers":[
+          {
+            "id":1,
+            "text":"Хочу продолжить свой род здесь, на Родине",
+            "points":1,
+            "nextQuestionId":4
+          },
+          {
+            "id":2,
+            "text":"Хочу здесь жить",
+            "points":2,
+            "nextQuestionId":4
+          },
+          {
+            "id":3,
+            "text":"Хочу учиться тут и работать",
+            "points":1,
+            "nextQuestionId":4
+          }
+        ],
+        "type":0,
+        "questionImageName":null  
+    }
+  ]
+}
